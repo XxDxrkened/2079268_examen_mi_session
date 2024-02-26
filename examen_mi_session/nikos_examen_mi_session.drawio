@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T17:49:38.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="XydTky8-FdpPDDLySVQQ" version="23.1.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-26T17:57:45.664Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="eB3B1UQJbCCpzQWoEutN" version="23.1.6" type="github" pages="2">
   <diagram id="yODvSvp6m1vTAaSSl_WT" name="modèle entité-association">
-    <mxGraphModel dx="280" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="913" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,14 +25,26 @@
         <mxCell id="ZHoMWd-fafX53ID7b46x-18" value="Candidat (étudiant)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="380" width="160" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="ZHoMWd-fafX53ID7b46x-19" value="+&lt;b&gt;IUC&lt;/b&gt;&lt;br&gt;+Nom&lt;br&gt;+Date de naissance&lt;br&gt;+Pays d&#39;origine&lt;br&gt;+Numéro de téléphone&lt;br&gt;+Numéro de Passport&lt;br&gt;+Statut matrimonial&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ZHoMWd-fafX53ID7b46x-18">
+        <mxCell id="ZHoMWd-fafX53ID7b46x-19" value="+IUC&lt;br&gt;+Nom&lt;br&gt;+Date de naissance&lt;br&gt;+Pays d&#39;origine&lt;br&gt;+Numéro de téléphone&lt;br&gt;+Numéro de Passport&lt;br&gt;+Statut matrimonial&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ZHoMWd-fafX53ID7b46x-18">
           <mxGeometry y="50" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ZHoMWd-fafX53ID7b46x-25" value="Tests de Langues" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="650" width="160" height="210" as="geometry" />
+          <mxGeometry x="120" y="690" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ZHoMWd-fafX53ID7b46x-26" value="+Nom du test&lt;br&gt;+Date du test&lt;br&gt;+Expression Écrite&lt;br&gt;+Expression Orale&lt;br&gt;+Écoute&lt;br&gt;+Lecture&lt;br&gt;+Writing&lt;br&gt;+Speaking&lt;br&gt;+Listening&lt;br&gt;+Reading" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ZHoMWd-fafX53ID7b46x-25">
-          <mxGeometry y="50" width="160" height="160" as="geometry" />
+        <mxCell id="ZHoMWd-fafX53ID7b46x-26" value="+Nom du test&lt;br&gt;+Date du test&lt;br&gt;+Résultat de Test Français&lt;br&gt;+Résultat de Test Anglais&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ZHoMWd-fafX53ID7b46x-25">
+          <mxGeometry y="50" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHoMWd-fafX53ID7b46x-28" value="Test de Français" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="620" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHoMWd-fafX53ID7b46x-29" value="+Expression Écrite&lt;br&gt;+Expression Orale&lt;br&gt;+Écoute&lt;br&gt;+Lecture" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ZHoMWd-fafX53ID7b46x-28">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHoMWd-fafX53ID7b46x-30" value="Test d&#39;Anglais" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="820" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHoMWd-fafX53ID7b46x-31" value="+Writing&lt;br&gt;+Speaking&lt;br&gt;+Listening&lt;br&gt;+Reading" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ZHoMWd-fafX53ID7b46x-30">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
