@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T18:03:07.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="0Vy3-Br8wv2HVfpJdy1R" version="23.1.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-26T18:05:02.451Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="BRjn4gpVU5U9KBMXRwgW" version="23.1.6" type="github" pages="2">
   <diagram id="yODvSvp6m1vTAaSSl_WT" name="modèle entité-association">
-    <mxGraphModel dx="243" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,13 +35,13 @@
           <mxGeometry y="50" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZHoMWd-fafX53ID7b46x-28" value="Test de Français" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="590" width="160" height="120" as="geometry" />
+          <mxGeometry x="620" y="850" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ZHoMWd-fafX53ID7b46x-29" value="+Expression Écrite&lt;br&gt;+Expression Orale&lt;br&gt;+Écoute&lt;br&gt;+Lecture" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ZHoMWd-fafX53ID7b46x-28">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZHoMWd-fafX53ID7b46x-30" value="Test d&#39;Anglais" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="850" width="160" height="120" as="geometry" />
+          <mxGeometry x="620" y="1180" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ZHoMWd-fafX53ID7b46x-31" value="+Writing&lt;br&gt;+Speaking&lt;br&gt;+Listening&lt;br&gt;+Reading" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ZHoMWd-fafX53ID7b46x-30">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
@@ -64,6 +64,15 @@
         </mxCell>
         <mxCell id="ZHoMWd-fafX53ID7b46x-37" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="ZHoMWd-fafX53ID7b46x-36">
           <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHoMWd-fafX53ID7b46x-41" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="895" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHoMWd-fafX53ID7b46x-42" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHoMWd-fafX53ID7b46x-43" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
