@@ -1,11 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T17:26:12.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="5qcwwuoMiiGCqzRUHMda" version="23.1.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-26T17:43:15.421Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="ey0RsTOVYAJcj1WvKpLx" version="23.1.6" type="github" pages="2">
   <diagram id="yODvSvp6m1vTAaSSl_WT" name="modèle entité-association">
-    <mxGraphModel dx="1050" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="280" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZHoMWd-fafX53ID7b46x-1" value="candidat (étudiant)" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="150" y="230" width="100" height="40" as="geometry" />
+        <mxCell id="ZHoMWd-fafX53ID7b46x-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=none;" edge="1" parent="1" source="ZHoMWd-fafX53ID7b46x-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="420" as="sourcePoint" />
+            <mxPoint x="230" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZHoMWd-fafX53ID7b46x-2" value="est marié avec" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHoMWd-fafX53ID7b46x-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=none;" edge="1" parent="1" target="ZHoMWd-fafX53ID7b46x-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="420" as="sourcePoint" />
+            <mxPoint x="230" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZHoMWd-fafX53ID7b46x-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;width=38;entryX=0.25;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZHoMWd-fafX53ID7b46x-18" target="ZHoMWd-fafX53ID7b46x-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHoMWd-fafX53ID7b46x-18" value="Candidat (étudiant)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ZHoMWd-fafX53ID7b46x-19" value="+&lt;b&gt;IUC&lt;/b&gt;&lt;br&gt;+Nom&lt;br&gt;+Date de naissance&lt;br&gt;+Pays d&#39;origine&lt;br&gt;+Numéro de téléphone&lt;br&gt;+Numéro de Passport&lt;br&gt;+Statut matrimonial&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ZHoMWd-fafX53ID7b46x-18">
+          <mxGeometry y="50" width="160" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
