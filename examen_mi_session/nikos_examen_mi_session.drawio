@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T17:43:24.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="YZuLvXN5f6pSG7XqeLl8" version="23.1.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-26T17:43:40.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="SQeK5MtAQ7bRY_lG4KRJ" version="23.1.6" type="github" pages="2">
   <diagram id="yODvSvp6m1vTAaSSl_WT" name="modèle entité-association">
     <mxGraphModel dx="280" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZHoMWd-fafX53ID7b46x-2" value="est marié avec" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="390" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="435" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZHoMWd-fafX53ID7b46x-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=none;" edge="1" parent="1" target="ZHoMWd-fafX53ID7b46x-18">
           <mxGeometry relative="1" as="geometry">
@@ -23,10 +23,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZHoMWd-fafX53ID7b46x-18" value="Candidat (étudiant)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="380" width="160" height="220" as="geometry" />
+          <mxGeometry x="120" y="380" width="160" height="170" as="geometry" />
         </mxCell>
         <mxCell id="ZHoMWd-fafX53ID7b46x-19" value="+&lt;b&gt;IUC&lt;/b&gt;&lt;br&gt;+Nom&lt;br&gt;+Date de naissance&lt;br&gt;+Pays d&#39;origine&lt;br&gt;+Numéro de téléphone&lt;br&gt;+Numéro de Passport&lt;br&gt;+Statut matrimonial&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="ZHoMWd-fafX53ID7b46x-18">
-          <mxGeometry y="50" width="160" height="170" as="geometry" />
+          <mxGeometry y="50" width="160" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
